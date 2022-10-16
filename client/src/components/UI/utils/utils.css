@@ -1,0 +1,131 @@
+.search-bar{
+    border: none;
+    outline: none;
+    width: 350px;
+}
+
+.backdrop {
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.cardModal{
+    width: 50vw;
+    height: 45vh;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 10;
+    border-radius: 6px;
+    margin-top: 3%;
+    left: calc(24%);
+}
+.titleModal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid lightgray;
+}
+.titleModal h2{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 3%;
+}
+.middleModal{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+}
+.middleModal .contentModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+.middleModal .contentModal .imgContainer{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.middleModal .contentModal .imgContainer img{
+    width: 150px;
+}
+.middleModal .contentModal .inputContainer{
+    margin-right: 3%;
+    margin-top: -5%;
+    width: 60%;
+}
+.middleModal .contentModal .inputContainer h3{
+    font-size: 18px;
+}
+.middleModal .contentModal .inputContainer input{
+    width: 80%;
+    height: 4vh;
+    margin-right: -1%;
+    text-indent: 2%;
+    font-size: 14px;
+    font-weight: 450;
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    border-right: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(211, 211, 211, 0.3);
+}
+.middleModal .contentModal .inputContainer .buttons-Container{
+    display: inline-flex;
+}
+.middleModal .contentModal .inputContainer .buttons-Container button{
+    width: 60px;
+    height: 4.9vh;
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-left: none;
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+.inputIcons{
+    text-align: left;
+    display: flex;
+    margin-left: 36.8%;
+    margin-top: -5%;
+    width: 50%;
+    height: 7vh;
+    gap: 1%;
+}
+.inputIcons .icon:nth-child(1){
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+    opacity: 0.5;
+}
+.inputIcons .icon:nth-child(2){
+    cursor: pointer;
+    text-decoration: none;
+    color: green;
+    opacity: 0.5;
+}
+.inputIcons .icon:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.closeModal{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid lightgray;
+}
+.closeModal button{
+    width: 15%;
+    height: 5vh;
+    margin-right: 2%;
+    cursor: pointer;
+}

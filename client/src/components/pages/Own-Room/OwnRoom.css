@@ -1,0 +1,56 @@
+.OwRoom{
+    overflow: hidden;
+}
+.upload{
+    margin-left: 10%;
+    margin-top: 1%;
+    display: block;
+}
+.urlContainer{
+    margin: -1% 30%;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.videoDisplay{
+    width: 50vw;
+    height: 70vh;
+    margin-top: 1%;
+}
+.pills{
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+  cursor: pointer;
+}
+.pills .nav-item{
+    width: 25%;
+}
+.pills .items{
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+.pills .items:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,49 @@
+.Room{
+    margin-top: 1%;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.searchContainer{
+    margin-left: 20%;
+}
+.formContainer{
+    margin-right: 25%;
+    display: inline-flex;
+}
+.formContainer input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    text-indent: 2px;
+    font-size: 14px;
+}
+.formContainer .buttonsContainer{
+    margin-left: 1px;
+    margin-top: .1%;
+}
+.buttonsContainer{
+    background-color: #fd5;
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+}
+.copyButton{
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.sendButton{
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+}

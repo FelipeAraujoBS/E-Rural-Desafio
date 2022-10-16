@@ -1,0 +1,37 @@
+.customNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 10vh;
+    margin-top: 3%;
+}
+.logoContainer img{
+    width: 80px;
+    height: 60px;
+    margin: 100%;
+}
+.linksContainer{
+    margin-right: 13%;
+    margin-top: 1.5%;
+}
+.linksContainer ul{
+    display: flex;
+    gap: 3rem;
+    list-style-type: none;
+}
+.linksContainer ul li a{
+    margin-left: -4%;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    padding: 10px ;
+    border-radius: 8px;
+    background-color: black;
+}
+.linksContainer ul li a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
